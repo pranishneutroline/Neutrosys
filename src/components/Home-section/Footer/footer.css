@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkblue;
+  color: white;
+  padding: 1rem 0;
+}
+.footer_links a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.footer p {
+  margin: 0.4rem;
+}
