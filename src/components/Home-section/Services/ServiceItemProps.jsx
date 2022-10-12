@@ -4,7 +4,7 @@ function ServiceItemProps({image}) {
   return (
     <div className="services_item">
       {/* <img src="" alt="" /> */}
-      <img src={image} alt="services of the company" width="200px" />
+      <img src={image} alt="services of the company" />
       <h2>Mobile App Development</h2>
       <p>
         Developing and maintaining smooth cross platform mobile application and

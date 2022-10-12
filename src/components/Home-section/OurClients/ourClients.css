@@ -1,0 +1,17 @@
+.ourClients_container{
+    width:90%;
+    margin:auto;
+}
+
+.company-logo{
+    width:70% !important;
+    margin:auto !important;
+    /* background-color: red; */
+}
+.company-logo img{
+    margin:auto;
+    width:120px;
+}
+.company-logo h3{
+    text-align: center;
+}

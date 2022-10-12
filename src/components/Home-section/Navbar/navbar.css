@@ -22,3 +22,10 @@
 .navbar_button:hover{
     background-color: green;
 }
+
+@media only screen and (max-width: 500px){
+    /* div .navbar_list{
+     display:none;
+    } */
+   
+}
