@@ -6,8 +6,8 @@ const Header = () => {
     <div className="gridcontainer">
     <div className="content">
     <div className="contentheader">
-    <h3>Our Services</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates ducimus placeat, ad id eveniet fuga a saepe quisquam totam corrupti at sint deleniti pariatur iure ipsa quia atque, doloremque rerum!</p>
+    <h1>Our Services</h1>
+    <p>Neutrosys is an IT staffing and software development company. We are a young, innovative, motivated, skilled, ambitious, and trusted group of people working together on providing IT solutions globally.We are currently providing IT services mainly in the US and Nepal. We provide services from USA, Nepal, India, and Finland.</p>
     </div>
     </div>
     <div className="headerimage">

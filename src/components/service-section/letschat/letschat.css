@@ -1,0 +1,40 @@
+.letschatmain{
+    /* background-color:#1f76c7; */
+    
+    /* background: rgba(102, 191, 230, 0.8); */
+   /* padding: 2rem ; */
+}
+.letschatcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 3vh 0;
+}
+.letschatcontent h3{
+    /* color: white; */
+   
+    font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+}
+.letschatcontent button{
+    height: 4vh;
+    width:7vw;
+    border: none;
+    border-radius: 1rem;
+    background: #23ABE6;
+   
+}
+.letschatcontent p{
+    width: 40%;
+    
+}
+/* <Modal.Body>
+   <h5 className=''>MobileApp Development </h5>
+   <p>Mobile app development creates applications specifically for mobile devices. 
+   Marketers can use mobile applications to manage content, share special offers,
+    disseminate information, drive e-commerce, or make services available. 
+    The average marketer can use modern tools to drag, drop, and deliver a basic app.</p>
+    
+   </Modal.Body>
+    */
