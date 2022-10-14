@@ -3,40 +3,48 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { logo } from "./our-clients";
-import "./ourClients.css"
+import "./ourClients.css";
 function OurClients() {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    slidesToShow: 4,
-    // slidesToScroll:2,
-    accessibility:true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    accessibility: true,
+    initialSlide: 0,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 20000000,
     cssEase: "linear",
-
-    responsive: [{
-      breakpoint: 768,
-      setting: {
-          slidesToShow:4
-      }
-  }, {
-      breakpoint: 520,
-      setting: {
-          slidesToShow: 3
-      }
-  }]
-
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
+
   return (
-    <div className="ourClients_container">
-      <Slider {...settings}>
+    
+    <div className="ourClients_container py-3">
+      <h1 className="text-center py-3">Our Clients</h1>
+      <Slider {...settings} className="d-flex flex-column">
         {" "}
         {logo.map((item) => (
-          <div className="company-logo" key={item.id}>
-            <img src={item.image} alt="company logo" width="10"/>
-            <h3>{item.name}</h3>
+          <div className="company-logo d-flex flex-column justify-content-center align-items-center" key={item.id}>
+            <div className="clients_logo">
+            <img src={item.image} alt="company-logo" />
+            </div>
+            <p>{item.name}</p>
           </div>
         ))}
       </Slider>

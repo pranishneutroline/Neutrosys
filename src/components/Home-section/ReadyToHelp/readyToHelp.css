@@ -4,7 +4,8 @@
     text-align: center;
 }   
 .readytohelp_container p{
-    width:50%;
+    width:55%;
+    padding:1rem 0;
     margin:auto;
     padding-bottom:1rem;
 }
@@ -15,4 +16,14 @@
     background-color: #23ABE5;
     cursor:pointer;
     color:white;
+}
+@media only screen and (max-width: 700px){
+    .readytohelp_container p{
+        width:70%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .readytohelp_container p{
+        width:95%;
+    }
 }

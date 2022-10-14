@@ -3,7 +3,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./ourPartners.css";
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import OurPartnersDetails from "./OurPartnersDetails";
 // import OurPartnersDetail from "./OurPartnersDetail";
@@ -58,7 +58,7 @@ function OurPartners() {
         items: 1,
       },
       600: {
-        items: 3,
+        items: 2,
       },
       1000: {
         items: 3,
@@ -67,17 +67,10 @@ function OurPartners() {
   };
   return (
     <section id="testimonial" className="testimonials pt-70 pb-70">
-      <div className="container mt-5">
-        <h4 className="miniTitle text-center">TESTIMONIALS</h4>
-        <div className="text-center ">
-          <h3 className="sectionTitle">What Our Clients are Saying?</h3>
-        </div>
-        <p className="text-center ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna.
-        </p>
+      <div className="ourpartners_container">
+        <h4 className="text-center partners_heading">Our Partners</h4>
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-lg-12">
             <OwlCarousel
               id="customer-testimonoals"
               className="owl-carousel owl-theme"

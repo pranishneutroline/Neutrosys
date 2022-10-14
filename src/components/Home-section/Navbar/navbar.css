@@ -1,31 +1,27 @@
-.navbar{
-    justify-content: space-around;
+.navbar {
+  justify-content: space-around;
 }
 
-.navbar_list li{
-    list-style-type:none;
-    padding:0 1.5rem;
+.navbar_list li {
+  list-style-type: none;
+  padding: 0 1.5rem;
 }
-.navbar_list li a{
-    text-decoration: none;
-    color:black;
+.navbar_list li a {
+  text-decoration: none;
+  color: black;
 }
-.navbar_button{
-    padding:0 1rem;
-    margin:.5rem 0;
-    background-color:#23ABE5;
-    border-radius: 1.4rem;
-    color:white;
-    border: none;
-    cursor:pointer;
+.navbar_button {
+  padding: 0.3rem 1rem;
+  /* margin:.5rem 0; */
+  background-color: #23abe5;
+  border-radius: 1.4rem;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
-.navbar_button:hover{
-    background-color: green;
+.navbar_button:hover {
+  background-color: green;
 }
 
-@media only screen and (max-width: 500px){
-    /* div .navbar_list{
-     display:none;
-    } */
-   
+@media only screen and (max-width: 500px) {
 }

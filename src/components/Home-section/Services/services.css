@@ -1,57 +1,65 @@
-.services_container{
-    margin-bottom:2rem; 
-    text-align: center;
+.services_container {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.services_container h1{
+    margin:1rem;
 }
 
-.services_items{
-display: grid;
-grid-template-columns: repeat(3, 33.33%);
-
-position:relative;
+.services_items {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  position: relative;
 }
 
-.services_item{
-    width:85%;
-    height:100%;
-    margin:auto;
-    background-color: white;
-    border:1px solid grey;
-    /* box-shadow: rgb(0 0 0 / 20%) 0px 10px 16px 0px, rgb(0 0 0 / 19%) 0px 6px 20px 0px; */
-    padding:1rem .5rem;
-    text-align: center;
-    z-index:5;
+.services_item {
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  background-color: white;
+  /* border: 1px solid grey; */
+  box-shadow: rgb(0 0 0 / 20%) 0px 10px 16px 0px, rgb(0 0 0 / 19%) 0px 6px 20px 0px;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  z-index: 5;
 }
-.services_item:nth-child(1){
-    width:85%;
-    margin-right:auto;
+.services_item:nth-child(1) {
+  width: 85%;
+  margin-right: auto;
 }
-.services_item img{
- width:60%;
+.services_item img {
+  width: 60%;
 }
-.services_item h2{
-    width:50%;
-    margin:auto;
+.services_item h2 {
+  width: 50%;
+  margin: auto;
 }
-.services_design{
-    width:100%;
-    background-color: #d3eefa;
-    height:100px;
-    position:absolute;
-    bottom:40%;
-    z-index: -2;
+.services_design {
+  width: 100%;
+  background-color: #d3eefa;
+  height: 100px;
+  position: absolute;
+  bottom: 40%;
+  z-index: -2;
 }
-.services_learnmore a{
-    text-decoration: none;
-    color:blue;
+.services_learnmore{
+  margin:1rem;
 }
-@media only screen and (max-width: 600px){
-    .services_items{
-        display:grid;
-        grid-template-columns: 100%;
-        gap:1rem 1rem;
-    }
-    .services_item{
-        width:80%;
-        margin:auto;
-    }
+.services_learnmore a {
+  text-decoration: none;
+  color: rgb(245, 75, 75);
+}
+@media only screen and (max-width: 600px) {
+  .services_items {
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1rem 1rem;
+  }
+  .services_item {
+    width: 80%;
+    margin: auto;
+  }
+  .services_design{
+    bottom:46%;
+  }
 }
