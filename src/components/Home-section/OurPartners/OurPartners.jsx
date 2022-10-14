@@ -50,7 +50,7 @@ function OurPartners() {
     margin: 0,
     autoplay: true,
     dots: true,
-    autoplayTimeout: 8500,
+    autoplayTimeout: 850000000,
     smartSpeed: 450,
     nav: false,
     responsive: {

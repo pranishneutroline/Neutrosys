@@ -3,7 +3,9 @@ import "./footer.css";
 function Footer() {
   return (
     <section className="footer">
-      <div className="footer_logo">logo</div>
+      <div className="footer_logo">
+        <img src="/images/neutrosys.png" alt="" />
+      </div>
       <div className="footer_getintouch">
         <h6>Get in touch</h6>
         <p>info@neutrosys.com</p>

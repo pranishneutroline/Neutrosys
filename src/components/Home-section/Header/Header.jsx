@@ -9,7 +9,7 @@ function Header() {
           We build custom IT solutions and products that accelerate customer’s
           business growth, simplify process and increase revenue.
         </p>
-        <div>
+        <div className="header_btn_container">
           <button className="header_btn blue_background">View all jobs</button>
           <button className="header_btn blue_border">request resources</button>
         </div>

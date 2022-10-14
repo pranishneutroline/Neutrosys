@@ -14,7 +14,7 @@ function OurClients() {
     initialSlide: 0,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 20000000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {
