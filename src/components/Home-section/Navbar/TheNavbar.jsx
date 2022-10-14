@@ -6,9 +6,11 @@ import "./navbar.css";
 import TheNavbarProps from "./TheNavbarProps";
 function TheNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-      <LinkContainer to="/">
-        <Navbar.Brand href="#home">logo</Navbar.Brand>
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
+      <LinkContainer to="/" >
+        <Navbar.Brand href="#home" className="navbar_img">
+          <img src="/images/neutrosys.png" alt="" />
+        </Navbar.Brand>
       </LinkContainer>
 
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />

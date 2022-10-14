@@ -70,3 +70,8 @@
     bottom: 46%;
   }
 }
+@media only screen and (max-width: 400px){
+  .services_item {
+    width: 90%;
+  }
+}

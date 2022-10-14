@@ -1,13 +1,18 @@
 .footer {
   display: flex;
   justify-content: space-around;
+  gap:7rem;
   background-color: #0E5472;
   color: white;
   padding: 1rem 0;
   width:100%;
 }
 .footer_logo{
-  vertical-align: middle;
+  /* vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 .footer_getintouch p, .footer_links p a,.footer_socials p{
   color:gray;
@@ -20,9 +25,19 @@
 .footer p {
   margin: 0.4rem;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 820px){
   .footer{
+    gap:1rem;
+  }
+}
+@media only screen and (max-width: 600px){
+  .footer{
+    gap:2rem;
     flex-direction: column;
     text-align:center;
+
+  }
+  .footer_logo{
+ height: 100%;   
   }
 }
