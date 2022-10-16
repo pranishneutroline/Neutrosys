@@ -48,6 +48,7 @@ function OurPartners() {
     center: true,
     items: 3,
     margin: 0,
+    stagePadding:2,
     autoplay: true,
     dots: true,
     autoplayTimeout: 850000000,
@@ -75,6 +76,7 @@ function OurPartners() {
               id="customer-testimonoals"
               className="owl-carousel owl-theme"
               {...options}
+        
             >
               {testiMonials.length === 0 ? (
                 <div className="item">

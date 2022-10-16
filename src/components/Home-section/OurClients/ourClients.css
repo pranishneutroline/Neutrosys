@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    /* height: 200px; */
     width:100%;
     height: 10rem;
     /* padding:2rem 0; */
@@ -19,7 +19,7 @@
 }
 .company-logo img{
     margin: auto;
-    width:70%;
+    width:60%;
     /* background-color: red; */
 
 }
@@ -37,5 +37,8 @@
 @media only screen and (max-width: 700px){
     .clients_logo{
         height: 5rem;
+    }
+    .company-logo img{
+        width:8rem;
     }
 }
