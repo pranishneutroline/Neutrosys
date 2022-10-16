@@ -9,12 +9,16 @@ function Services() {
 
       <div className="services_items">
         <div className="services_design"></div>
-        <ServiceItemProps image="images/mobile_app1.png"/>
-        <ServiceItemProps image="images/mobile_app2.png"/>
-        <ServiceItemProps image="images/mobile_app3.svg"/>
+        <ServiceItemProps image="images/mobile_app1.png" />
+        <ServiceItemProps image="images/mobile_app2.png" />
+        <ServiceItemProps image="images/mobile_app3.svg" />
       </div>
-      <p className="services_learnmore"> <a href="/">learn more</a>
-        </p>
+      <p className="services_learnmore">
+        {" "}
+        <a href="/">
+          learn more{" "}
+        </a>
+      </p>
     </section>
   );
 }
