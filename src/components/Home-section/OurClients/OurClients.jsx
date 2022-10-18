@@ -6,7 +6,7 @@ import { logo } from "./our-clients";
 import "./ourClients.css";
 function OurClients() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -14,7 +14,7 @@ function OurClients() {
     initialSlide: 0,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 200000000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {

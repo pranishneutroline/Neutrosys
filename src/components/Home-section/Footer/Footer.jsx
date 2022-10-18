@@ -37,6 +37,17 @@ function Footer() {
       </div>
       <div className="footer_socials">
         <h6>social media</h6>
+        <div className="social">
+          <div style={{width:"40px", height:"40px", margin:"0 .2rem"}} >
+          <img src="/images/footer-social-links/facebook1.png" alt="" width="50"/>
+          </div>
+          <div style={{width:"40px", height:"40px",  margin:"0 .2rem"}}>
+          <img src="/images/footer-social-links/whatsApp.png" alt="" />
+          </div>
+          <div style={{width:"40px", height:"40px",  margin:"0 .2rem"}}>
+          <img src="/images/footer-social-links/linkedin.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   );

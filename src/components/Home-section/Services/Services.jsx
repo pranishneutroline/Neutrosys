@@ -9,15 +9,28 @@ function Services() {
 
       <div className="services_items">
         <div className="services_design"></div>
-        <ServiceItemProps image="images/mobile_app1.png" />
-        <ServiceItemProps image="images/mobile_app2.png" />
-        <ServiceItemProps image="images/mobile_app3.svg" />
+        <ServiceItemProps
+          image="images/services/mobile_app1.png"
+          desc=" Developing and maintaining smooth cross platform mobile application and
+        providing end to end testing."
+          name="Talent Solution"
+        />
+        <ServiceItemProps
+          image="images/services/mobile_app2.png"
+          desc=" Developing and maintaining smooth cross platform mobile application and
+        providing end to end testing."
+          name="Software Development"
+        />
+        <ServiceItemProps
+          image="images/services/mobile_app3.svg"
+          desc=" Developing and maintaining smooth cross platform mobile application and
+        providing end to end testing."
+          name="Outsourcing"
+        />
       </div>
       <p className="services_learnmore">
         {" "}
-        <a href="/">
-          learn more{" "}
-        </a>
+        <a href="/">learn more <img src="/images/arrow.png" alt=""/> </a>
       </p>
     </section>
   );

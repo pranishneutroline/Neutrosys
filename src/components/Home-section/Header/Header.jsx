@@ -27,7 +27,7 @@ console.log(container);
           {
             "fullScreen": {
                 "enable": true,
-                "zIndex": 999999
+                "zIndex": 1
             },
             particles: {
               number: {
