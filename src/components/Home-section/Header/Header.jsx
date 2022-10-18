@@ -1,7 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-// import AboutAnimBackground from "./AboutAnimBackground";
 import "./header.css";
 function Header() {
   const particlesInit = async (main) => {
@@ -27,7 +26,7 @@ console.log(container);
           {
             "fullScreen": {
                 "enable": true,
-                "zIndex": 999999
+                "zIndex": 1
             },
             particles: {
               number: {

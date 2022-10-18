@@ -1,14 +1,15 @@
 import React from "react";
 
-function ServiceItemProps({image}) {
+function ServiceItemProps({image,name,desc}) {
   return (
     <div className="services_item">
       {/* <img src="" alt="" /> */}
+      <div className="service_item_img" >
       <img src={image} alt="services of the company" />
-      <h2>Mobile App Development</h2>
+      </div>
+      <h2>{name}</h2>
       <p>
-        Developing and maintaining smooth cross platform mobile application and
-        providing end to end testing.
+       {desc}
       </p>
     </div>
   );
