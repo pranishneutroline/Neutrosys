@@ -80,7 +80,7 @@ function OurPartners() {
             
             >
               {testiMonials.length === 0 ? (
-                <div className="item" style={{width:"500px"}}>
+                <div className="item">
                   <div className="shadow-effect">
                     <img
                       className="img-circle"

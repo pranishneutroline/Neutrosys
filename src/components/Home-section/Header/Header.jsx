@@ -1,7 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-// import AboutAnimBackground from "./AboutAnimBackground";
 import "./header.css";
 function Header() {
   const particlesInit = async (main) => {

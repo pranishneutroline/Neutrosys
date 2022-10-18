@@ -61,10 +61,12 @@
 .services_learnmore {
   margin: 1rem;
 }
+
 .services_learnmore a {
   text-decoration: none;
   color: blue;
 }
+
 @media only screen and (max-width: 800px) {
   .services_items {
     display: grid;
