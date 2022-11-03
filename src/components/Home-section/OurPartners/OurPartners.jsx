@@ -52,7 +52,7 @@ function OurPartners() {
     // autoWidth:true,
     // autoHeight:true,
     dots: true,
-    autoplayTimeout: 8500,
+    autoplayTimeout: 85000,
     smartSpeed: 450,
     nav: false,
     responsive: {
@@ -70,7 +70,7 @@ function OurPartners() {
   return (
     <section id="testimonial" className="testimonials pt-70 pb-70">
       <div className="ourpartners_container">
-        <h4 className="text-center partners_heading">Our Partners</h4>
+        <h2 className="text-center partners_heading">Our Partners</h2>
         <div className="row">
           <div className="col-lg-12">
             <OwlCarousel

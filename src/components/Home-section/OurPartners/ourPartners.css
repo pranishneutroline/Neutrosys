@@ -7,9 +7,12 @@
 .ourpartners_container .row{
   --bs-gutter-x:0;
 }
+.item:nth-child(1){
+  background-color: red;
+}
 .shadow-effect {
   /* width:120%; */
-  /* width:600px; */
+  width:100%;
   background: #e8f6fc;
   padding: 1rem;
   border-radius: 4px;
@@ -45,6 +48,7 @@
   margin-bottom: 0px;
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
+  width:600px;
   transition: all 0.3s ease-in-out;
 }
 #customer-testimonoals .owl-item.active.center .item {

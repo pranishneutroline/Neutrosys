@@ -5,7 +5,7 @@ import "./services.css";
 function Services() {
   return (
     <section className="services_container">
-      <h1>Services</h1>
+      <h2>Services</h2>
 
       <div className="services_items">
         <div className="services_design"></div>

@@ -139,9 +139,9 @@ console.log(container);
           
         }}
       />
-        <h1>Let us Transform your business idea into reality.</h1>
-        <p>
-          We build custom IT solutions and products that accelerate customer’s
+        <h2 className="header-heading heading">Let us Transform your business idea into reality.</h2>
+        <p className="header-paragraph heading">
+          We build custom IT solutions and products that accelerates customer’s
           business growth, simplify process and increase revenue.
         </p>
         <div className="header_btn_container">
