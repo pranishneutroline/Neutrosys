@@ -1,15 +1,18 @@
 .ourpartners_container {
   background-color: #c2e7f8;
 }
-.partners_heading{
-  padding-top:1rem;
+.partners_heading {
+  padding-top: 1rem;
 }
-.ourpartners_container .row{
-  --bs-gutter-x:0;
+.ourpartners_container .row {
+  --bs-gutter-x: 0;
+}
+.item:nth-child(1) {
+  /* background-color: red; */
 }
 .shadow-effect {
   /* width:120%; */
-  /* width:600px; */
+  width: 100%;
   background: #e8f6fc;
   padding: 1rem;
   border-radius: 4px;
@@ -45,6 +48,7 @@
   margin-bottom: 0px;
   opacity: 0.2;
   transform: scale3d(0.8, 0.8, 1);
+  width: 600px;
   transition: all 0.3s ease-in-out;
 }
 #customer-testimonoals .owl-item.active.center .item {
@@ -60,7 +64,7 @@
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding-top:1rem;
+  padding-top: 1rem;
 }
 .owl-carousel .owl-dots .owl-dot {
   display: inline-block;
@@ -75,4 +79,64 @@
   transform: translate3d(0px, -50%, 0px) scale(0.3);
   transform-origin: 50% 50% 0;
   transition: all 250ms ease-out 0s;
+}
+
+/* new carousel */
+.mainbg-div {
+  background-color: rgba(135, 207, 235, 0.363);
+}
+.mainbg-div h2 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.partners-bg {
+  background-color: rgba(135, 207, 235, 0.055);
+  /* height: 300px; */
+  margin-bottom: 2rem;
+}
+.partner-row {
+  /* border: 1px solid ; */
+  justify-content: center;
+  text-align: center;
+}
+.partner-col {
+  background-color: white;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px 0 rgba(133, 200, 245, 0.3),
+    0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.inner-row {
+  /* border: 1px solid; */
+  /* margin:
+  
+  rem; */
+  padding: 2rem 0.5rem;
+  justify-content: center;
+}
+.inner-row .cirleimage {
+  /* border: 1px solid red; */
+
+  margin-top: 25px;
+  border-radius: 50%;
+  /* height: 10rem; */
+  width: unset;
+}
+.cirleimage img {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 7rem;
+  width: 7rem;
+}
+.textparagraph {
+  background-color: rgba(250, 235, 215, 0.705);
+  margin: 2rem;
+  box-shadow: 0 2px 4px 0 rgba(224, 230, 235, 0.178),
+    0 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.textparagraph p {
+  padding: 15px;
+  text-align: justify;
+}
+@media only screen and (max-width: 500px) {
 }

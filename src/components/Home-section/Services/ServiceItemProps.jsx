@@ -7,7 +7,7 @@ function ServiceItemProps({image,name,desc}) {
       <div className="service_item_img" >
       <img src={image} alt="services of the company" />
       </div>
-      <h2>{name}</h2>
+      <h4>{name}</h4>
       <p>
        {desc}
       </p>

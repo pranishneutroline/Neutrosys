@@ -1,12 +1,13 @@
 .header_container {
   background-color: #1f68ae;
   color: white;
-  height: 18rem;
+  height: 20rem;
 }
 .header_btn_container {
-  margin-left: 15rem;
-  width: 50%;
-  z-index:2;
+  margin-top:1rem;
+  margin-left: 9rem;
+  width: 60%;
+  z-index: 2;
 }
 .header_btn {
   padding: 0.4rem 1.5rem;
@@ -15,7 +16,11 @@
   color: white;
   margin-right: 0.4rem;
   text-transform: uppercase;
-  font-size:.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.header_btn:nth-child(2){
+  margin-left:.4rem;
 }
 .header_center {
   width: 100%;
@@ -30,16 +35,23 @@
   transform: translate(-50%, -1%);
   /* justify-content: center; */
 }
-.header_center h1,
-.header_center p {
+.heading {
   margin: 0.5rem 3rem;
-  width: 40%;
+  z-index: 2;
+}
+.header-heading {
+  width: 25rem;
+}
+.header-paragraph {
+  /* width: 27.5%; */
+  width:21rem;
 }
 .header_btn.blue_background {
   background-color: #23abe5;
+  border: 1.5px solid #23abe5;
 }
 .header_btn.blue_border {
-  border: 1px solid #23abe5;
+  border: 1.5px solid #23abe5;
   background-color: transparent;
 }
 @media only screen and (max-width: 700px) {
@@ -53,21 +65,25 @@
     height: 100%;
   }
   .header_btn_container {
-    margin-left: 2rem;
+    margin-left: 2.8rem;
     width: 80%;
+  }
+  .header_btn:nth-child(2){
+    margin-left:0;
   }
 }
 @media only screen and (max-width: 500px) {
   .header_btn:nth-child(2) {
     margin-top: 0.5rem;
+    margin-left:0;
   }
-  .header_center p,
-  .header_center h1 {
+  .header-heading,
+  .header-paragraph {
     width: 95%;
-    margin:auto;
+    margin: auto;
   }
   .header_btn_container {
-    margin-left: 1rem;
-    width: 100%;
+    margin-left: .5rem;
+    width: 80%;
   }
 }
