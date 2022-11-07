@@ -35,8 +35,8 @@ function OurClients() {
 
   return (
     
-    <div className="ourClients_container py-3">
-      <h2 className="text-center py-3">Our Clients</h2>
+    <div className="ourClients_container py-4">
+      <h2 className="text-center py-1">Our Clients</h2>
       <Slider {...settings} className="d-flex flex-column">
         {" "}
         {logo.map((item) => (
