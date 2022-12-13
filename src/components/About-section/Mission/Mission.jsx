@@ -31,7 +31,7 @@ function mission() {
 
           <div className="box">
           <p className="Ficon">
-              < MdCenterFocusStrong/>
+              <MdCenterFocusStrong />
 
             </p>
           {/* <img className="mission-image i2" src="../Aboutimage/focus.jpeg" alt="" /> */}

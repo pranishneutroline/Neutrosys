@@ -12,7 +12,7 @@ const Corevalues = () => {
 
       <div className="coregrid">
         <div className="valuetext1">
-          <img className="icon1" src={imageabout1} alt="" />
+          <img className="core-icon1" src={imageabout1} alt="" />
           <p className="cvp">Customer Satisfaction</p>
           <p className="corep">
           Text is text 1 this is text 2Lorem ipsum dolor sit amet consectetur
@@ -26,7 +26,7 @@ const Corevalues = () => {
 </div>
 
         <div className="valuetext2">
-          <img className="icon2" src={imageabout2} alt="" />
+          <img className="core-icon2" src={imageabout2} alt="" />
           {/* <hr
         className="line"
         style={{
@@ -47,7 +47,7 @@ const Corevalues = () => {
           <hr />
         </div>
         <div className="valuetext3">
-          <img className="icon3" src={imageabout3} alt="" />
+          <img className="core-icon3" src={imageabout3} alt="" />
           <p className="cvp">Strong bond</p>
           <p className="corep"> 
             Text is text 3 this is text 2Lorem ipsum dolor sit amet consectetur

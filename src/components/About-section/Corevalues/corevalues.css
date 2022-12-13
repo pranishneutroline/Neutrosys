@@ -16,18 +16,18 @@
     margin:auto;
     justify-content: space-between;
   }
-  .icon1{
+  .core-icon1{
     height: 82px;
     width: 73px;
     margin-left: -10px;
   }
-  .icon2{
+  .core-icon2{
     height: 40px;
     width: 50px;
     margin-bottom: 10px
 
   }
-  .icon3{
+  .core-icon3{
     height: 50px;
     width: auto;
     

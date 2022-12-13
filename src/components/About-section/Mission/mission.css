@@ -55,6 +55,13 @@ p.Eicon{
   text-align: justify;
   background-color: rgb(205, 231, 239);
 }
+/* .Mgrid .box{
+  z-index:1;
+  color:black;
+  background-color: white;
+  padding:0;
+  cursor:normal;
+} */
 p.missleft {
   margin-right: 20px;
 }
@@ -62,7 +69,7 @@ p.missright {
   margin-left: 20px;
 }
 
-.box {
+.Mgrid .box {
   background-color:white;
   -ms-transform: rotate(20deg);
   transform: rotate(300deg);
@@ -71,6 +78,8 @@ p.missright {
   height: 7rem;
   left: 3rem;
   bottom: 1rem;
+  z-index:1;
+  color:black;
 }
 .box:nth-child(odd) {
   left: 1.5rem;

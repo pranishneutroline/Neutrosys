@@ -21,9 +21,10 @@
     /* padding: 12px; */
     border: 0;
     margin-bottom: .4rem;
-  }
-  .searchWrapper{
     padding: 0;
+  }
+  div .multiSelectContainer input {
+    margin:0;
   }
   .textfield{
     width:80%;

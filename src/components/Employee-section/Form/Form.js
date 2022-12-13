@@ -320,7 +320,7 @@ const FormEl = () => {
           />
         )}
       />
-          <div className="button">
+          <div className="submit-button">
             <Button
               className="btn btn-primary mt-4"
               style={{
