@@ -14,8 +14,10 @@ font-size: 40px;
     justify-content: end;
     align-items: center;
     padding-left: 30px;
+  display: block;
 }
 p.vicon{
+  display: block;
   color: #3CA6A6;
   font-size: 40px;
     justify-content: end;
@@ -31,8 +33,10 @@ p.Ficon {
   align-items: center;
   padding-left: 45px;
   transform: skew(-28deg);
+  display: block;
 }
 p.Eicon{
+  display: block;
   color: #3CA6A6;
   padding-top: 5px;
     font-size: 35px;
@@ -69,7 +73,7 @@ p.missright {
   margin-left: 20px;
 }
 
-.Mgrid .box {
+.box {
   background-color:white;
   -ms-transform: rotate(20deg);
   transform: rotate(300deg);

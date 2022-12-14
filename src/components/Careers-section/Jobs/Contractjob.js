@@ -65,7 +65,7 @@ const Contractjob = () => {
                   key={i}
                   id={title.id}
                   className={`work-for-us-step ${i <= number && "active"}`}
-                  onClick={(e) => {
+                  onMouseOver={(e) => {
                     setNumber(i);
                     setCurrentTab(e.target.getAttribute("id"));
                   }}

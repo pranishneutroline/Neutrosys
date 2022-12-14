@@ -10,11 +10,9 @@
 }
 .partners-bg {
   background-color: rgba(135, 207, 235, 0.055);
-  /* height: 300px; */
   margin-bottom: 2rem;
 }
 .partner-row {
-  /* border: 1px solid ; */
   justify-content: center;
   text-align: center;
 }
@@ -27,20 +25,13 @@
 div .carousel-indicators{
   bottom:-12px;
 }
-.inner-row {
-  /* border: 1px solid; */
-  /* margin:
-  
-  rem; */
+.partner-col .inner-row {
   padding: 2rem 0.5rem;
   justify-content: center;
 }
 .inner-row .cirleimage {
-  /* border: 1px solid red; */
-
   margin-top: 25px;
   border-radius: 50%;
-  /* height: 10rem; */
   width: unset;
 }
 .cirleimage img {

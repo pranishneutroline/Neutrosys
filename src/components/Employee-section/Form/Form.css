@@ -10,6 +10,7 @@
 .form-container .form_container{
     background-color: transparent;
     width:100%;
+    padding:0;
 }
 
 .form-left {

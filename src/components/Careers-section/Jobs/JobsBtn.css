@@ -10,7 +10,6 @@
   border-radius: 30px;
   width: 200px;
   font-weight: 600;
-
   text-align: center;
   padding-top: 5px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
@@ -20,7 +19,7 @@
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
   letter-spacing: 2px;
-  width: 250px;
+  width: 200px;
   background-color: blue;
   /* background-color:rgba(35, 171, 229, 0.534); */
   color: white;
@@ -39,7 +38,7 @@
 .primary-btn:focus {
   /* box-shadow: 3px 4.9px 16px rgba(27,139,249,0.6); */
   letter-spacing: 2px;
-  width: 250px;
+  width: 200px;
   background-color: blue;
   /* background-color:rgba(35, 171, 229, 0.534); */
   color: white;
@@ -47,19 +46,27 @@
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-.job-btn{
+.job-btn {
   height: 100%;
   display: block;
-  margin:1% auto;
+  margin: 1% auto;
 }
-@media only screen and (max-width: 576px){
-  .contract-btn{
-    width: 40%;
+.btns-div{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .contract-btn, .primary-btn {
+    width: 45%;
   }
-  .primary-btn{
-    width:45%;
+  div .btn-lg{
+    padding:.5rem;
   }
-  .primary-btn:focus,.contract-btn:focus{
-    width:48%;
+
+  .primary-btn:focus,
+  .contract-btn:focus {
+    width: 45%;
   }
 }

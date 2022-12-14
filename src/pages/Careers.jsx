@@ -4,6 +4,7 @@ import Header from '../components/Careers-section/Header/Header'
 import WorkWithUs from '../components/Careers-section/WorkWithUs/WorkWithUs'
 import Jobs from '../components/Careers-section/Jobs/JobsBtn';
 import Resume from '../components/Careers-section/Resume/Resume';
+import Footer from '../components/Home-section/Footer/Footer';
 
 function Careers() {
     return (
@@ -13,6 +14,7 @@ function Careers() {
         <WorkWithUs/>
         <Jobs/>
         <Resume/>
+        <Footer />
         {/* <Map /> */}
       </>
     )

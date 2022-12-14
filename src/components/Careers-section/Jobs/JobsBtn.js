@@ -20,7 +20,7 @@ export default function JobsBtn() {
             <div className='buttonjobs-maindiv'>
                 <div className='btns-div'>
                     <Button variant="outline-primary" size="lg" className='contract-btn' onClick={cont}>Contract jobs</Button>
-                    &nbsp;&nbsp;&nbsp;
+                  
                     <Button variant="outline-primary" size="lg" className='primary-btn' onClick={inte}>Internal jobs</Button>
                 </div>
                 <div className='job-btn'>{job}</div>

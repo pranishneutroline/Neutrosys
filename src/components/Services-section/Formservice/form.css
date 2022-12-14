@@ -13,18 +13,15 @@
     background-color:white;
     border-color:white;
     border-radius: 8px;
-    /* padding: 11px; */
-    /* height: 50px; */
-    
   }
   div .searchWrapper{
-    /* padding: 12px; */
     border: 0;
     margin-bottom: .4rem;
     padding: 0;
   }
   div .multiSelectContainer input {
     margin:0;
+    width:100%;
   }
   .textfield{
     width:80%;

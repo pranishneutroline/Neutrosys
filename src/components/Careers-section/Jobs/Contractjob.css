@@ -164,7 +164,9 @@ li.active .step-box, .step-box:hover {
   .work-for-us-progress-bar-responsive-container .work-for-us-step {
     text-align:left;
   }
-
+  .work-for-us-progress-bar-responsive-container .work-for-us-step p{
+    text-align: justify;
+  }
   .work-for-us-progress-bar-responsive-container .work-for-us-step h2{
     position: relative;
     font-size: 1.5rem;
