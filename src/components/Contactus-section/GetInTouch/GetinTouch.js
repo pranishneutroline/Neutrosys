@@ -19,21 +19,21 @@ export default function LocationDetail() {
                     <Row className='getintouch-row'>
                         <Col sm={3} className='getintouch-col'>
                             <div className='locationicon'>
-                                <img src='locationicon.png' alt="icons"></img>
+                                <img src='./images/contact-us/locationicon.png' alt="icons"></img>
                             </div>
                             <p className='icon-para'>Irving, Texas, USA</p>
                         </Col>
 
                         <Col sm={3} className='getintouch-col'>
                         <div className='phoneicon'>
-                                <img src='phoneicon.png' alt="icons"></img>
+                                <img src='./images/contact-us/phoneicon.png' alt="icons"></img>
                             </div>
                             <p className='icon-para'>+1(214)382-6161</p>
                         </Col>
 
                         <Col sm={3} className='getintouch-col'>
                         <div className='emailicon'>
-                                <img src='emailicon.png' alt="icons"></img>
+                                <img src='./images/contact-us/emailicon.png' alt="icons"></img>
                             </div>
                             <p className='icon-para'>Info@neutrosys.com</p>
                         </Col>

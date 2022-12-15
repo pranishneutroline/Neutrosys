@@ -41,7 +41,7 @@ const Ourservice = ({closeme}) => {
   return (
     <div className="Servicemainbody ">
     <h2>We are currently providing IT services</h2>
-    <p>We provide services from USA, Nepal, India, and Finland.</p>
+    <p className="service-paragraph">We provide services from USA, Nepal, India, and Finland.</p>
       <div className="mainbox">
         {data.map((item) => {
           return (
@@ -61,8 +61,8 @@ const Ourservice = ({closeme}) => {
         })}
       </div>
       <Modal   dialogClassName="modalmain" style={{paddingLeft:"0px"}}  show={state} onHide={closeButton} className="dbyaModal" >
-        <Modal.Header onClick={closeButton}  className="modalheader" className="border-0" >
-        <div className="micon bg-danger"><CloseIcon   className="closeicon" /></div> 
+        <Modal.Header onClick={closeButton}  className="modalheader"> 
+               <div className="micon bg-danger"><CloseIcon   className="closeicon" /></div> 
         </Modal.Header>
         <Modal.Body className="modalbody">{nextstate}</Modal.Body>
       </Modal>

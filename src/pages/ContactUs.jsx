@@ -4,7 +4,7 @@ import LocationDetail from "../components/Contactus-section/LocationDetails/Loca
 import GetinTouch from "../components/Contactus-section/GetInTouch/GetinTouch"
 import GetAquote from "../components/Contactus-section/GetAQuote/GetAquote"
 import TheNavbar from '../components/Home-section/Navbar/TheNavbar'
-
+import Footer from "../components/Home-section/Footer/Footer"
 
 function ContactUs() {
   return (
@@ -14,6 +14,7 @@ function ContactUs() {
       <LocationDetail/>
       <GetinTouch/>
       <GetAquote/>
+      <Footer />
    </>
   )
 }

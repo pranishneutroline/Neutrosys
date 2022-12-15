@@ -12,7 +12,6 @@ import linethird from "../Aboutimage/l1.png"
 import linefourth from "../Aboutimage/l2.png"
 
 
-
 const work = () => {
   return (
     <div className='maindiv-work'>

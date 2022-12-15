@@ -73,7 +73,7 @@ export default function FormWithMui() {
                 // showCheckbox
               />
 
-            <Container className="mt-2 mb-5 formContainer">
+            <Container className="mt-2 mb-1 formContainer">
               <TextField
                 // required
               
@@ -264,6 +264,7 @@ export default function FormWithMui() {
                 }}
                 {...register("message")}
               />
+              <div style={{display:"flex"}}>
               <label htmlFor="upload_file">
                 <input
                   style={{ display: "none" }}
@@ -287,6 +288,7 @@ export default function FormWithMui() {
                 </Button>
                 {/* <small style={{ color: "#b1a40d" }}>Upload file </small> */}
               </label>
+              </div>
               <Button
                 style={{ display: "block", margin: "auto", width: "7rem", color:"white",backgroundColor: "#3b6da7",  }}
                 // disabled={!myForm.isValid}

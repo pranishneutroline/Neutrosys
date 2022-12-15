@@ -6,13 +6,13 @@
     margin: .6rem 0 1rem 0;
    
 }
-.Servicemainbody h2,p{
+.Servicemainbody h2,.service-paragraph{
     display: flex;
     justify-content: center;
     align-items: center;
     /* color: #05A5FF; */
 }
-.Servicemainbody p{
+.Servicemainbody .service-paragraph{
     font-size: 1rem;
     margin-bottom: 1.7rem;
 }
