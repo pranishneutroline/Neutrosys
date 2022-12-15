@@ -1,9 +1,12 @@
 import React from "react";
 import { LinkContainer } from "react-router-bootstrap";
 import { Navbar, Nav } from "react-bootstrap";
-
 import "./navbar.css";
 import TheNavbarProps from "./TheNavbarProps";
+import { Link } from "react-router-dom";
+
+
+
 function TheNavbar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar">
@@ -16,7 +19,7 @@ function TheNavbar() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav navbar_list">
         <Nav className="m-auto">
-          <TheNavbarProps link="/aboutus" name="About us" />
+          <TheNavbarProps link="/aboutus"  name="About us" />
           <TheNavbarProps link="/services" name="Services" />
           <TheNavbarProps link="/employers" name="Employers" />
           <TheNavbarProps link="/careers" name="Careers" />

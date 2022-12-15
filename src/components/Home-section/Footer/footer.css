@@ -24,10 +24,15 @@
 .footer_logo img {
   width: 100%;
 }
+.footer_getintouch{
+  text-align: center;
+}
+
 .footer_getintouch p,
 .footer_links p a,
 .footer_socials p {
   color: #cbd5e1;
+  
 }
 .footer_links a {
   display: block;

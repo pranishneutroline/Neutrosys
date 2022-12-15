@@ -27,6 +27,14 @@
 .navbar_button:hover {
   background-color: #1f68ae;
 }
+ /* .Nav-link .active{
+  background-color: #C2C0A6;
+  
+ }   */
+ nav.navbar.navbar.navbar-expand-lg.navbar-light.bg-light{
+  z-index:2;
+ }
+
 
 @media only screen and (max-width: 500px) {
   .navbar_img{
