@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .header-row {
-  height: auto;
+  height: 20rem;
   width: 100%;
   margin: 0;
   background-color: rgba(13, 73, 147, 0.74);
@@ -13,7 +13,7 @@
 .col-p {
   text-align: left;
   color: white;
-  height: 350px;
+  height: 20rem;
 }
 .heading-h {
   padding-top: 80px;
@@ -24,7 +24,7 @@
   /* padding-right: 60px; */
 }
 .col-image {
-  height: 350px;
+  height: 20rem;
   padding: 0px;
   margin: 0px;
 }

@@ -288,38 +288,6 @@ const FormEl = () => {
             </label>
           </div>
 
-          <Controller
-        type="file"
-        name="photo"
-        control={control} 
-        // render={({ field }) => (
-        //   <input
-        //     type="file"
-        //     onChange={(e) => {
-        //       field.onChange(e.target.files);
-        //     }}
-        //     // multiple
-        //   />
-        // )}
-        render={({ field }) => (
-          <TextField
-            // {...field}
-            // inputRef={ref}
-            fullWidth
-            label="photo"
-            margin="dense"
-            accept="image/*"
-            type="file"
-            onChange={(e) => {
-              field.onChange(e.target.files);
-            }}
-            // error={errors.photo ? true : false}
-            InputLabelProps={{
-              shrink: true
-            }}
-          />
-        )}
-      />
           <div className="submit-button">
             <Button
               className="btn btn-primary mt-4"
@@ -351,14 +319,14 @@ const FormEl = () => {
         <div className="contact-container">
           <div className="contact">
             <div className="icon-container">
-              <i className="fa-solid fa-phone"></i>
+              <i className="fa fa-phone"></i>
             </div>
             <div className="icon-text">+977-71-577820</div>
           </div>
 
           <div className="contact">
             <div className="icon-container">
-              <i className="fa-solid fa-envelope"></i>
+              <i className="fa fa-envelope"></i>
             </div>
             <div className="icon-text">info@neutroline.com</div>
           </div>

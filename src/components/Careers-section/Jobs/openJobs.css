@@ -132,7 +132,13 @@
 {
     /* border: 1px solid red; */
     background-color: rgba(128, 128, 128, 0.068);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+
     width:100%;
+}
+.white-box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+
 }
 /* .inner-col
 {

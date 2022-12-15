@@ -183,7 +183,7 @@ li.active .step-box, .step-box:hover {
     background: linear-gradient(to right, #045ce9 0%, #fff 100%);
     position: absolute;
     top: 0;
-    left: -3.9rem;
+    left: -3.3rem;
   }
   .work-for-us-progress-bar-responsive-container .work-for-us-line-process{
     content: "";
